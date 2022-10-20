@@ -1,13 +1,13 @@
-#Cards Checker
+# Cards Checker
 
 Checks CSV file to find users with active accounts that had not picked up their cards by given CSV file
 
-##Usage
+## Usage
 
 As script requires no special dependencies you can run it directly in python3 interpreter. 
 You can also leverage docker. 
 
-###Python from terminal
+### Python from terminal
 
 `$ python cards_checker.py CSV_FILE`
 
@@ -18,7 +18,7 @@ results in:
 
 See also `$ python cards_checker.py --help` for expected CSV file structure 
 
-###Docker
+### Docker
 
 
 1. Run `$ dockerBuildAndRun.sh` once
