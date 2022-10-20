@@ -1,0 +1,7 @@
+Użytkownik,XXX,XXX,Status konta,XXX,XXX,XXX,odebrał karty?,XXX,XXX,XXX
+Nieodbierający Użytkownik,X,X,aktywne,X,X,X,nie,X,X,X
+Odbierający Użytkownik,X,X,aktywne,X,X,X,tak,X,X,X
+Nieaktywny Użytkownik,X,X,nieaktywne,X,X,X,tak,X,X,X
+Nieaktywny Użytkownik,X,X,nieaktywne,X,X,X,nie,X,X,X
+Zawieszony Użytkownik,X,X,zawieszone,X,X,X,tak,X,X,X
+Zawieszony Użytkownik,X,X,zawieszone,X,X,X,nie,X,X,X
