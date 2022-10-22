@@ -83,7 +83,7 @@ if __name__ == "__main__":
         printHelpHint()
     else:
         argument = sys.argv[1]
-        if argument == '--help':
+        if argument == '--help' or argument == '':
             printInfo()
             printCorrectUsage()
             printCsvStructureHint()
@@ -94,8 +94,7 @@ if __name__ == "__main__":
                 output = findUsersWhoHaveNotCollectedTheCards(csvHeaderAndRowsList)
                 printOutput(output)
             except FileNotFoundError:
-                print(f"ERROR: Provided file {argument} does not exists")
-            except e:
-                print(e)
+                print(f"ERROR: Provided file {argument} does not exist")
+            except:
                 print(f"ERROR: Provided file {argument} is not a valid csv file or has an invalid format.")
                 printHelpHint()
