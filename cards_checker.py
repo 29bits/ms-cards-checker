@@ -93,6 +93,9 @@ if __name__ == "__main__":
                 verifyCsvFile(csvHeaderAndRowsList)
                 output = findUsersWhoHaveNotCollectedTheCards(csvHeaderAndRowsList)
                 printOutput(output)
-            except:
+            except FileNotFoundError:
+                print(f"ERROR: Provided file {argument} does not exists")
+            except e:
+                print(e)
                 print(f"ERROR: Provided file {argument} is not a valid csv file or has an invalid format.")
                 printHelpHint()
