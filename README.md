@@ -30,3 +30,16 @@ See also `$ python cards_checker.py --help` for expected CSV file structure
 > Nieodbierający Użytkownik, aktywne, nie
 
 See also `$ dockerRun.sh --help` for expected CSV file structure
+
+
+## Troubleshooting
+
+### Windows + WSL line endings issue
+
+1. After running `./dockerBuildAndRun.sh` user encountered the following issue: 
+```
+unable to prepare context: path ".\r" not found
+./dockerRun.sh: line 4: syntax error near unexpected token `elif'
+'/dockerRun.sh: line 4: `elif [ "$1" = "" ]
+```
+2. Using `dos2unix` solved the issue
