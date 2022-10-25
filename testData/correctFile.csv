@@ -5,3 +5,6 @@ Nieaktywny Użytkownik,X,X,nieaktywne,X,X,X,tak,X,X,X
 Nieaktywny Użytkownik,X,X,nieaktywne,X,X,X,nie,X,X,X
 Zawieszony Użytkownik,X,X,zawieszone,X,X,X,tak,X,X,X
 Zawieszony Użytkownik,X,X,zawieszone,X,X,X,nie,X,X,X
+Płacący Użytkownik,X,X,aktywne,X,X,X,wpłacił,X,X,X
+Niewiadomy Użytkownik,X,X,aktywne,X,X,X,,X,X,X
+Inny Użytkownik,X,X,aktywne,X,X,X,inny,X,X,X
